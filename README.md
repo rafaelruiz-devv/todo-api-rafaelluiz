@@ -40,7 +40,7 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 ![Quadro no fim do Sprint 1](docs/sprint1-fim.png)
 
-**Placar do `npm run conferir`:** Sprint 1: _(preencher)_ de 14 · Bônus: _(preencher)_ de 5
+**Placar do `npm run conferir`:** Sprint 1: _(14)_ de 14 · Bônus: _(2)_ de 5
 
 ## Sprint 2 — Categorias e relacionamento
 
@@ -52,10 +52,10 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 ![Quadro no fim do Sprint 2](docs/sprint2-fim.png)
 
-**Placar do `npm run conferir`:** Sprint 1: _(14)_ de 14 · Sprint 2: _(0)_ de 8 · Bônus: _(2)_ de 5
+**Placar do `npm run conferir`:** Sprint 1: _(preencher)_ de 14 · Sprint 2: _(preencher)_ de 8 · Bônus: _(preencher)_ de 5
 
 ## Reflexão final
 
-- **O que aprendi:** _(preencher)_
-- **O que foi mais difícil:** _(preencher)_
-- **O que eu faria diferente:** _(preencher)_
+- **O que aprendi:** _(A desenvolver uma API inteira sozinho)_
+- **O que foi mais difícil:** _(Ver todos os postman, funcionando.)_
+- **O que eu faria diferente:** _(Acho que não faria nada diferente, seguiria a mesma lógica.)_
