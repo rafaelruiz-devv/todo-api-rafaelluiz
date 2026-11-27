@@ -9,4 +9,6 @@ const router = express.Router();
 router.get("/:id", validarId, tarefaController.buscarPorId);o:
 router.get("/", tarefaController.listar);
 router.post("/", tarefaController.criar);
+router.put("/:id", validarId, tarefaController.atualizar);
+router.patch("/:id", validarId, tarefaController.atualizarParcial);
 module.exports = router;
