@@ -1,6 +1,6 @@
 # API de Tarefas
 
-**Aluno(a):** _(preencher)_
+**Aluno(a):** _(Rafael Luiz Soares Ruiz)_
 
 API de gestão de tarefas feita com Node.js, Express e MySQL, no padrão MVC.
 
