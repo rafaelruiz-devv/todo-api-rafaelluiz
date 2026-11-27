@@ -1,5 +1,3 @@
-// CONTROLLER: recebe da rota, chama o service e devolve a resposta.
-
 const tarefaService = require("../services/tarefaService");
 
 async function listar(req, res) {
@@ -7,4 +5,13 @@ async function listar(req, res) {
   res.status(200).json(tarefas);
 }
 
-module.exports = {listar};
+async function buscarPorId(req, res) {
+  const tarefa = await tarefaService.buscarTarefaPorId(req.params.id);
+  if (!tarefa) {
+    res.status(404).json({ erro: "Tarefa nao encontrada" });
+    return;
+  }
+  res.status(200).json(tarefa);
+}
+
+module.exports = { listar, buscarPorId };
