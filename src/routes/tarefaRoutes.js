@@ -8,5 +8,5 @@ const router = express.Router();
 
 router.get("/:id", validarId, tarefaController.buscarPorId);o:
 router.get("/", tarefaController.listar);
-
+router.post("/", tarefaController.criar);
 module.exports = router;
